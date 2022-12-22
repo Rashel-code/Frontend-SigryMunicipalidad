@@ -1,0 +1,80 @@
+<div class="content-page">
+    <div class="content">
+        <div class="container-fluid">
+
+            <div class="general"><br>
+                <h1 class="titulo1">MIS SOLICITUDES</h1>
+
+
+
+                <div class="tablita p-4 ">
+                    <table class="tabla table shadow">
+                        <thead class="cabezeratable">
+                            <tr>
+                                <th class="letracabe" scope="col">#</th>
+                                <th class="letracabe" scope="col">NOMBRE SOLICITUD</th>
+                                <th class="letracabe" scope="col">TIPO SOLICITUD</th>
+                                <th class="letracabe" scope="col">FECHA SOLICITUD</th>
+                            </tr>
+                        </thead>
+                        <tbody class="cuerpo">
+                            <tr *ngFor="let data of solicitud; let i = index">
+                                <th scope="row">{{ i + 1 }}</th>
+                                <td class="rell">{{ data.nombreOrganizacion }}</td>
+                                <td class="rell">{{ data.tipoSolicitud.nombreTipoSolicitud }}</td>
+                                <td class="rell">{{ data.fechaRegistro | date:'dd/MM/YYYY' }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+
+        </div>
+    </div>
+</div>
